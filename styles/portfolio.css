@@ -92,7 +92,7 @@ img {
     width: 150px;
     display: flex;
 }
-p {
+.p {
     color: #6D6D6D;
     font-size: 8pt;
     margin: 5px 20px 5px 20px;
@@ -113,6 +113,8 @@ p {
     height: 30px;
     display: flex;
     align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .drop-down-header-icon{
@@ -135,6 +137,7 @@ p {
     color: white;
     position: absolute;
     left: 50px;
+    text-align: center;
 }
 
 .entry{
@@ -179,7 +182,7 @@ hr{
 }
 
 .hr-container{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 5px 0px 5px;
 }
 
 /*<div style="margin: auto; width: 700px; background-color: #282828; position: relative;"">
